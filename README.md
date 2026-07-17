@@ -6,6 +6,10 @@ Sitio web de portafolio personal desarrollado para presentar mi perfil profesion
 
 Este proyecto consiste en una página web responsiva diseñada para mostrar información profesional de forma clara y moderna. Incluye una presentación personal, listado de tecnologías, proyectos destacados y enlaces de contacto.
 
+## Link a la página
+
+https://juanfelipe153.github.io/web_project_potfolio_es/
+
 ## Características
 
 - Diseño responsivo para diferentes tamaños de pantalla.
