@@ -37,7 +37,7 @@ portfolio/
 ├── index.html
 ├── style/
 │   ├── normalize.css
-│   └── index.css
+│   └── style.css
 │
 ├── image/
 │   └── ...
