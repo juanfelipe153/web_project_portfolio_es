@@ -31,7 +31,12 @@
     font-style: normal;
 }
 
-
+.body{
+  background-color: #111111;
+  max-width: 1440px;
+  margin: 0 auto;
+  min-width: 320px;
+}
 
 .header{
     background-color: #111111;
@@ -41,6 +46,7 @@
     padding: clamp(20px,4%,89px) clamp(20px,8%,120px) 0 clamp(20px,8%,120px);
     box-sizing: border-box;
     margin:auto;
+    max-width: 1440px;
 }
 
 .header_name{
@@ -143,6 +149,7 @@
     padding: 0 clamp(20px,8%,120px) 0 clamp(20px,8%,120px);
     box-sizing: border-box;
     margin:auto;
+    max-width: 1440px;
 }
 
 .skills{
@@ -177,9 +184,34 @@
     z-index: 2;
 }
 
-.project_image{
+.project_image_container{
     width: 100%;
     position: relative;
+    overflow: hidden;
+
+}
+
+.project_image{
+    width: 100%;
+    aspect-ratio:16/9;
+    display: block;
+    object-fit: cover;
+}
+
+.image_overlay{
+
+    position: absolute;
+    inset: 0;
+
+
+    background: linear-gradient(
+        to top,
+        rgba(0,0,0,0.4) 0%,
+        rgba(0,0,0,0.2) 15%,
+        rgba(0,0,0,0) 35%
+    );
+
+    z-index: 1;
 }
 
 .project_skills{
@@ -251,6 +283,7 @@
     flex-direction: column;
     align-items: center;
     flex:1;
+    max-width: 1440px;
 }
 
 .contact_info_title{
